@@ -1,23 +1,21 @@
-div{
-    height: 10vh;
-}
-
 .main-container{
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
+    margin: 0;
 }
 
 .island-pic{
     position: absolute;
     width: 100%;
     height: auto;
-    
     opacity: .5;
 }
 
 .main-text h1{
     position: absolute;
-    top: 50%;
+    top: 300px;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(red, green, blue, 0.5);
+    font-size: 30;
 }
