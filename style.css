@@ -1,5 +1,11 @@
 section{
+    display: flex;
+    flex-wrap: nowrap;
     height: 100vh;
+}
+
+.selected div{
+    width: 50vw;
 }
 
 .main-container{
