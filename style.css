@@ -63,5 +63,5 @@ section{
   }
 
   .button {
-    animation: glowing 1000ms infinite;
+    animation: glowing 4000ms infinite;
   }
