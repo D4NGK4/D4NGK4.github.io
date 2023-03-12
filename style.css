@@ -1,43 +1,11 @@
-section{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 100vh;
-}
-
-img{
-    display: flex;
-}
-
 .main{
   display: flex;
   height: 100vh;
+  justify-content: center;
+  background-color: #1305a8;
 }
 
-.selected div{
-    width: 50vw;
-}
 
-.main-container{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin: 0;
-}
-
-.island-pic{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    opacity: .5;
-}
-
-.main-text h1{
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30;
-}
 
 .button {
     background-color: #1c87c9;
