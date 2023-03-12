@@ -15,6 +15,7 @@ width: 100%;
 }
 
 .image-container img{
+  position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -28,9 +29,8 @@ width: 100%;
 }
 
 
-
 .button {
-    background-color: #1c87c9;
+    background-color: #ffffff;
     -webkit-border-radius: 60px;
     border-radius: 60px;
     border: none;
@@ -46,24 +46,24 @@ width: 100%;
 
   @keyframes glowing {
     0% {
-      background-color: #0590a8cc;
-      box-shadow: 0 0 3px #2ba805;
+      background-color: #1a1a1acc;
+      box-shadow: 0 0 3px #000000;
     }
     25% {
-        background-color: #1305a8;
-        box-shadow: 0 0 3px #2ba805;
+        background-color: #757575;
+        box-shadow: 0 0 3px #000000;
       }
     50% {
-      background-color: #e82719;
-      box-shadow: 0 0 10px #49e819;
+      background-color: #3d3d3d;
+      box-shadow: 0 0 10px #000000;
     }
     75% {
-        background-color: #d7e819;
-        box-shadow: 0 0 10px #49e819;
+        background-color: #212121;
+        box-shadow: 0 0 10px #000000;
       }
     100% {
-      background-color: #2ba805;
-      box-shadow: 0 0 3px #2ba805;
+      background-color: #000000;
+      box-shadow: 0 0 3px #000000;
     }
   }
 
@@ -74,7 +74,7 @@ width: 100%;
 
   
   .rotate {
-    animation: rotation 8s infinite linear;
+    animation: rotation 2s infinite linear;
   }
   
   @keyframes rotation {
