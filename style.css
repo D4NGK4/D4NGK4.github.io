@@ -7,6 +7,12 @@ section{
 img{
     display: flex;
 }
+
+.main{
+  display: flex;
+  height: 100vh;
+}
+
 .selected div{
     width: 50vw;
 }
