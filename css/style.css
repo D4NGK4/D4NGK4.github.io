@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'Josefin Sans',  sans-serif;
+  box-sizing: border-box;
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/Smoke_Generic1_0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  color: wheat;
+  font-size: 35px;
+  letter-spacing:  1px;
+  cursor: pointer;
+}
+
+/*Make Portfolio fade*/
+span{
+  color: rgb(80, 82, 84);
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: rgb(80, 82, 84);
+  transition: .4s;
+}
+
+.btn{
+  background-color: rgb(80, 82, 84);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
