@@ -23,7 +23,7 @@ nav{
 }
 
 .logo{
-  color: wheat;
+  color: #F6F1F1;
   font-size: 35px;
   letter-spacing:  1px;
   cursor: pointer;
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #F6F1F1;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 .btn{
   background-color: #19A7CE;
-  color: white;
+  color: #F6F1F1;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -75,19 +75,19 @@ nav ul li a:hover{
 }
 
 h1{
-  color: white;
+  color: #F6F1F1;
   margin: 20px 0px 20px;
   font-size: 75px;
 }
 
 h3{
-  color: white;
+  color: #F6F1F1;
   font-size: 25px;
   margin-bottom: 50px;
 }
 
 h4{
-  color: white;
+  color: #F6F1F1;
   letter-spacing: 2px;
   font-size: 20px;
 }
